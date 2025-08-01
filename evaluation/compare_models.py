@@ -6,7 +6,7 @@ from stable_baselines3 import DQN, PPO, A2C
 from environment.custom_env import HealthInsuranceEnv
 from training.reinforce_training import PolicyNetwork
 
-def evaluate_model(agent_type, model_path, episodes=5):
+def evaluate_model(agent_type, model_path, episodes=3):
     env = HealthInsuranceEnv(render_mode="none")
     rewards = []
 
@@ -51,8 +51,8 @@ def evaluate_model(agent_type, model_path, episodes=5):
 if __name__ == "__main__":
     models = {
      "dqn": "models/dqn/dqn_model.zip",
-    "ppo": "models/pg/ppo_insurewise.zip",
-    "a2c": "models/pg/a2c_insurewise.zip",
+    "ppo": "models/pg/ppo_best/best_model.zip",
+    "a2c": "models/pg/a2c_best/best_model.zip",
     "reinforce": "models/pg/reinforce_insurewise.pt"
     }
 
