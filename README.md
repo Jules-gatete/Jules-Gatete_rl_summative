@@ -62,6 +62,6 @@ pip install -r requirements.txt
 
 * Source code for environment, training, and evaluation
 * Trained models (DQN, PPO, A2C, REINFORCE)
-* Video recording of simulation (![alt text](reinforce.gif))
-* Link to video presentation ![video link](https://youtu.be/kbZqr28gSSE)
+* [Video recording of simulation](reinforce.gif)
+* [Link to video presentation](https://youtu.be/kbZqr28gSSE)
 
